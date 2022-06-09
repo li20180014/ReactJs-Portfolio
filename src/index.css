@@ -12,7 +12,7 @@
 
 :root{
     --color-bg:#1f1f38;
-    --color-bg-variant: #2c2c6c;
+    --color-bg-variant: hsla(240, 42%, 30%, 0.7);
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white: #fff;
@@ -37,7 +37,11 @@ body{
     font-family: 'Poppins', sans-serif;
     color: var(--color-white);
     line-height: 1.7;
-    background: linear-gradient(160deg,#3F5EFB, #FC466B), url(../src/assets/transparent-square-tiles.png) ;
+    background: linear-gradient(
+        to bottom right,
+        #DD95F7 0%,
+         #9AADF9 50% ,
+         #7FC9D9 100%);
 }
 
 .container{

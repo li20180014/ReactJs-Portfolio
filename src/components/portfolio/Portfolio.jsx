@@ -15,6 +15,7 @@ const Portfolio = () => {
       id:1,
       image: IMG1,
       title: 'Wix Ecommerce Website',
+      desc: 'This is a description',
       github: 'https://github.com',
       demo: 'www.kalyanamay.com'
 
@@ -24,6 +25,7 @@ const Portfolio = () => {
       id:2,
       image: IMG2,
       title: 'Wix Ecommerce Website',
+      desc: 'This is a description',
       github: 'https://github.com',
       demo: 'www.kalyanamay.com'
       
@@ -33,6 +35,7 @@ const Portfolio = () => {
       id:3,
       image: IMG3,
       title: 'Wix Ecommerce Website',
+      desc: 'This is a description',
       github: 'https://github.com',
       demo: 'www.kalyanamay.com'
       
@@ -40,8 +43,9 @@ const Portfolio = () => {
     {
 
       id:4,
-      image: IMG4,
+      image: IMG1,
       title: 'Wix Ecommerce Website',
+      desc: 'This is a description',
       github: 'https://github.com',
       demo: 'www.kalyanamay.com'
       
@@ -49,8 +53,9 @@ const Portfolio = () => {
     {
 
       id:5,
-      image: IMG5,
+      image: IMG2,
       title: 'Wix Ecommerce Website',
+      desc: 'This is a description',
       github: 'https://github.com',
       demo: 'www.kalyanamay.com'
       
@@ -58,8 +63,9 @@ const Portfolio = () => {
     {
 
       id:6,
-      image: IMG6,
+      image: IMG3,
       title: 'Wix Ecommerce Website',
+      desc: 'This is a description',
       github: 'https://github.com',
       demo: 'www.kalyanamay.com'
       
@@ -75,13 +81,14 @@ const Portfolio = () => {
 
     <div className="container portfolio__container">
     {
-      data.map(({id, image, title,github,demo}) => {
+      data.map(({id, image, title, desc,github,demo}) => {
         return (
           <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
           <img src={image} alt={title} />
           </div>
           <h3>{title}</h3>
+          <p>{desc}</p>
           <div className="portfolio__item-cta">
           <a href={github} className='btn'target='_blank'>Github</a>
           <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>

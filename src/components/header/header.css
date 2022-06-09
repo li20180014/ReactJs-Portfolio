@@ -10,6 +10,7 @@ header{
     position: relative;
 }
 
+
 .cta{
     margin-top: 2.5rem;
     display: flex;
@@ -38,7 +39,7 @@ header{
     background: var(--color-white);
 }
 
-.me{
+.me img {
     background: linear-gradient(var(--color-white), transparent);
     width: 22rem;
     height: 30rem;
@@ -48,7 +49,7 @@ header{
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    
 }
 
 .scroll__down{
@@ -63,7 +64,7 @@ header{
 
 @media screen and (max-width: 1024px) {
     header{
-        height: 68vh;
+        height: 100vh;
     }
   
 }
@@ -74,4 +75,6 @@ header{
     .header__socials, .scroll__down{
         display: none;
     }
+
+    
 }
