@@ -6,11 +6,12 @@ import IMG3 from '../../assets/p3.jpg'
 import IMG4 from '../../assets/p5.jpg'
 import IMG5 from '../../assets/p6.jpg'
 import IMG6 from '../../assets/p7.png'
-import { useState } from 'react'
-import { motion } from 'framer-motion'
+//import { useState } from 'react'
+//import { motion } from 'framer-motion'
 
 
 // ToDo add motion hover to articles
+//Add  exact images and links
 
 
 const Portfolio = () => {
@@ -19,7 +20,7 @@ const Portfolio = () => {
     {
 
       id:1,
-      image: IMG4,
+      image: IMG2,
       title: 'Java Fitness Application',
       desc: 'Client/server desktop application built using Java. Project includes using the latest design patterns, MVC architecure and data communication between sockets.',
       github: 'https://github.com',
@@ -59,7 +60,7 @@ const Portfolio = () => {
     {
 
       id:5,
-      image: IMG5,
+      image: IMG3,
       title: 'HTML, CSS & Javascript Website',
       desc: 'Ecommerce website built using HTML, CSS and JavaScript. This was a team third year university project with shared tasks. ',
       github: 'https://github.com',
@@ -81,7 +82,6 @@ const Portfolio = () => {
 
   ]
 
-  const [selectedId, setSelectedId] = useState(null)
 
   return (
 
@@ -93,7 +93,7 @@ const Portfolio = () => {
     {
       data.map(({id, image, title, desc,github,demo}) => {
         return (
-          <motion.div layoutId={id} onClick={() => setSelectedId(id)}>
+        
           <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
           <img src={image} alt={title} />
@@ -105,7 +105,7 @@ const Portfolio = () => {
           
           </div>
           </article>
-          </motion.div>
+         
 
         )
     }
