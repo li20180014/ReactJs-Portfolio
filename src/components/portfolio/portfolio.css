@@ -13,10 +13,12 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.portfolio__item:hover{
+
+
+/* .portfolio__item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
-}
+} */
 
 .portfolio__item-image{
     border-radius: 1.5rem;

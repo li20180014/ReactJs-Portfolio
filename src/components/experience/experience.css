@@ -13,11 +13,11 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.experience__container > div:hover{
-    background: transparent;
+/* .experience__container > div:hover{
+    background: transparent ;
     border-color: var(--color-primary-variant);
     cursor: default;
-}
+} */
 
 .experience__container >div h3{
     text-align: center;

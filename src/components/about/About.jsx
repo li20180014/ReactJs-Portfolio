@@ -25,27 +25,27 @@ const About = () => {
 
             <article className="about__card">
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>Bachelor Degree</h5>
+              <small>Faculty of Organizational Sciences</small>
             </article>
 
             <article className="about__card">
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ Clients Worldwide</small>
+              <h5>Experience</h5>
+              <small>Junior Developer & Digital Marketing</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <h5>Skills</h5>
+              <small>Theoretical and
+        practical knowledge </small>
             </article>
 
           </div>
 
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, quaerat autem veritatis odio, 
-            quasi harum dolorem ratione consectetur exercitationem pariatur 
-            asperiores impedit natus doloremque error corrupti! Dolorum optio consequuntur unde.
+          <p>Young professional with an industry experience building websites and web applications. Specializes in Java language, and has experience working with React.js, HTML5, CSS. Simultaneously finishing studies with a major in Information Systems and Technology at Faculty of Organizational Sciences, where also honored with a scholarship for extremely gifted students. Constantly working on improving knowledge, skills and experience in various areas of the IT industry, such as web design, object-oriented programming and databases. 
+Open for new challenges, opportunities and achievements. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

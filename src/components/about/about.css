@@ -9,7 +9,7 @@
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent,
-     var(--color-primary-variant),
+     var(--color-light),
      transparent);
      display: grid;
      place-items: center;
@@ -45,9 +45,15 @@ gap: 1.5rem;
 }
 
 .about__card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    background: var(--color-light);
+    color: var(--color-bg);
     cursor: default;
+}
+
+.about__card:hover small{
+  
+    color: var(--color-bg);
+    
 }
 
 .about__icon{

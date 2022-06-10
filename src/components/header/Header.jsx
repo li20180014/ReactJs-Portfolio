@@ -5,25 +5,30 @@ import ME from '../../assets/meimg.jpg'
 import HeaderSocial from './HeaderSocials'
 import {motion} from 'framer-motion'
 
+// ToDo add animations and change header image
+// Change colours and button styles
+
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Lana Ilic</h1>
-        <h5 className="text-light">Student aspiring to become a Fullstack Developer!</h5>
+        <h5 style={{color: "#1f1f38"}}>Student aspiring to become a Fullstack Developer!</h5>
       <CTA/>
       <HeaderSocial/>
 
+    {/* ToDo Header bubbles section  */}
+
       <div className='me'>
-      <motion.div
+      <img src={ME} alt="me" />
+      {/* <motion.div
         whileInView={{x: [-100,0], opacity:[0,1]}}
         transition= {{duration:0.5}}
       >
-       
-        <img src={ME} alt="me" />
-     
-        </motion.div>
+        
+        </motion.div> */}
+        
       </div>
       <a href="#contact" className='scroll__down'>Scroll Down</a>
 
